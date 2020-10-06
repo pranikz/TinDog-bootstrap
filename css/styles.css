@@ -23,14 +23,9 @@ p {
   font-size: 3rem;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
 
 .container-fluid {
-  padding: 3% 15% 14%;
+  padding:15% 7%;
 }
 
 /* NabVigation Bar  */
@@ -58,6 +53,16 @@ p {
   margin: 5% 3% 5% 0;
 }
 
+/* Title section */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
 /* Title image */
 .title-image {
   width: 45%;
@@ -67,7 +72,6 @@ p {
 
 /* feature */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
   z-index: 1;
@@ -107,10 +111,6 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 /* press */
 #press {
   background-color: #ef8172;
@@ -138,14 +138,10 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
 }
 
 
 /* footer section */
-#footer {
-  padding: 5% 2%;
-}
 
 .social-icon {
   margin: 20px 10px;
