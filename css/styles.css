@@ -24,16 +24,16 @@ h3 {
 }
 
 p {
-  color: #8f8f8f
+  color: #8f8f8f;
 }
 
 .container-fluid {
-  padding: 3% 15%
+  padding: 3% 15% 14%;
 }
 
 /* NabVigation Bar  */
 .navbar {
-  padding-bottom: 0 0 4.5rem
+  padding-bottom: 0 0 4.5rem;
 }
 
 .navbar-brand {
@@ -58,13 +58,17 @@ p {
 
 /* Title image */
 .title-image {
-  width: 60%;
+  width: 45%;
   transform: rotate(25deg);
+  position: absolute;
 }
 
 /* feature */
 #features {
-  padding: 7% 15%
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -93,7 +97,6 @@ p {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
-  S
 }
 
 .carousel-item {
@@ -120,4 +123,39 @@ p {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: Montserrat-Black:cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer {
+  padding: 5% 2%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
