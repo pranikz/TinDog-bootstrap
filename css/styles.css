@@ -23,6 +23,7 @@ p {
   font-size: 3rem;
 }
 
+/* containers */
 
 .container-fluid {
   padding:15% 7%;
@@ -58,6 +59,7 @@ p {
 }
 
 /* Download button */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
@@ -70,13 +72,15 @@ p {
 }
 
 /* Title image */
+
 .title-image {
-  width: 45%;
+  width: 60%;
   transform: rotate(25deg);
   position: absolute;
 }
 
 /* feature */
+
 #features {
   background-color: #fff;
   position: relative;
@@ -100,6 +104,7 @@ p {
 }
 
 /* testimonials */
+
 #testimonials {
   font-size: 1.3rem;
   background-color: #ef8172;
@@ -117,6 +122,7 @@ p {
 }
 
 /* press */
+
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
