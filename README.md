@@ -6,4 +6,4 @@
 - CSS 3
 - BOOTSTRAP 4.x.y
 
-### Website is live check the description ot visit [here](https://pranikz.ml/tindogclone/)
+- ### Website is live check the description ot visit [here](https://pranikz.ml/tindogclone/)
